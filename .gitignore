@@ -1,0 +1,8 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+engine/.env
+start.sh
+bnk_env/
+engine/static/
