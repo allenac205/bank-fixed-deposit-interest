@@ -151,10 +151,6 @@ async def fd_specific_intrest(user_name: Literal["allen", "gladys"], fd_number: 
 
             await convert_datetime_to_str(data)
 
-            # tot_int = await total_intrest_only(data)
-
-            # data.append(tot_int)
-
             out = await fd_wise_intrest_with_indv_total(data)
 
             return out
